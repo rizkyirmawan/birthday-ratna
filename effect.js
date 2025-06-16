@@ -204,13 +204,13 @@ $("document").ready(function () {
     function msgLoop(i) {
       $("p:nth-child(" + i + ")")
         .fadeOut("slow")
-        .delay(800)
+        .delay(1500)
         .promise()
         .done(function () {
           i = i + 1;
           $("p:nth-child(" + i + ")")
             .fadeIn("slow")
-            .delay(1000);
+            .delay(1800);
           if (i == 50) {
             $("p:nth-child(49)")
               .fadeOut("slow")
@@ -221,7 +221,7 @@ $("document").ready(function () {
 				  		<img src="foto.jpeg" alt="ratna" style="border: 2px solid white; border-radius: 5px;" width="300" />
 				   </div>`
                 );
-                $("#ratna").fadeIn(1500);
+                $("#ratna").fadeIn(1700);
                 $(".balloons").fadeOut(1000);
               });
           } else {
