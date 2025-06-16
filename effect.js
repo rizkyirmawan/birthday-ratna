@@ -218,7 +218,7 @@ $("document").ready(function () {
               .done(function () {
                 $(".cake-cover").html(
                   `<div style="text-align: center; display: none;" id="ratna">
-				  		<img src="foto.jpeg" alt="ratna" style="border: 2px solid white; border-radius: 5px;" width="300" />
+				  		<img src="foto.jpeg" alt="ratna" style="border: 2px solid white; border-radius: 5px;" width="230" />
 				   </div>`
                 );
                 $("#ratna").fadeIn(1700);
