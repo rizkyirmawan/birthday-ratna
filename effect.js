@@ -222,6 +222,7 @@ $("document").ready(function () {
 				   </div>`
                 );
                 $("#ratna").fadeIn(1500);
+                $(".balloons").fadeOut(1000);
               });
           } else {
             msgLoop(i);
